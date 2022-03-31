@@ -1,0 +1,87 @@
+﻿<!DOCTYPE html>
+<html lang='pt-br'>
+	<head>
+		<title>NETFLIX CLONE</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="style/main.css">
+		
+		<!--owl css-->
+		<link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+		<link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+		
+		<!--responsividade-->
+		<link rel="stylesheet" href="style/responsive.css">
+	</head>
+	<body>
+		<header>
+			<div class="container">
+				<h2 class="logo">NETFLIX</h2>
+				<nav>
+					<a href="#">Início</a>
+					<a href="#populares">Populares</a>
+					<a href="#em-alta">Em alta</a>
+				</nav>
+			</div>
+		</header>
+		<main>
+			<div class="filme-principal">
+				<div class="container">
+					<h3 class="titulo">HOUSE OF CARDS</h3>
+					<p class="descricao">Nada pode impedir o político sem escrúpulos Frank Underwood de conquistar Washington. Assista agora a nova temporada de House of Cards que está imperdível.</p>
+					<div class="botoes">
+						<button role="button" class="botao" onclick="assistir()">
+							<i class="fas fa-play"></i>
+							ASSISTIR AGORA
+						</button>
+						<button role="button" class="botao" onclick="informacoes()">
+							<i class="fas fa-info-circle"></i>
+							MAIS INFORMAÇÕES
+						</button>
+					</div>
+				</div>
+			</div>
+		</main>
+		
+		<div id="populares" class="carrossel-populares">
+			<h2 class="title-populares">POPULARES</h2>
+			<div class="owl-carousel owl-theme">
+				<div class="item"><img class="box-filme" src="img/populares/min1.jpg" alt="" srcset=""></div>
+				<div class="item"><img class="box-filme" src="img/populares/min2.jpg" alt="" srcset=""></div>
+				<div class="item"><img class="box-filme" src="img/populares/min3.jpg" alt="" srcset=""></div>
+				<div class="item"><img class="box-filme" src="img/populares/min4.jpg" alt="" srcset=""></div>
+				<div class="item"><img class="box-filme" src="img/populares/min5.jpg" alt="" srcset=""></div>
+				<div class="item"><img class="box-filme" src="img/populares/min6.jpg" alt="" srcset=""></div>
+				<div class="item"><img class="box-filme" src="img/populares/min7.jpg" alt="" srcset=""></div>
+				<div class="item"><img class="box-filme" src="img/populares/min8.jpg" alt="" srcset=""></div>
+				<div class="item"><img class="box-filme" src="img/populares/min9.jpg" alt="" srcset=""></div>
+				<div class="item"><img class="box-filme" src="img/populares/min10.jpg" alt="" srcset=""></div>
+			</div>
+		</div>
+		<div id="em-alta" class="carrossel-em-alta">
+			<h2 class="title-em-alta">EM ALTA</h2>
+			<div class="owl-carousel owl-theme">
+				<div class="item"><img class="box-filme" src="img/em-alta/min1.jpg" alt="" srcset=""></div>
+				<div class="item"><img class="box-filme" src="img/em-alta/min2.jpg" alt="" srcset=""></div>
+				<div class="item"><img class="box-filme" src="img/em-alta/min3.jpg" alt="" srcset=""></div>
+				<div class="item"><img class="box-filme" src="img/em-alta/min4.jpg" alt="" srcset=""></div>
+				<div class="item"><img class="box-filme" src="img/em-alta/min5.jpg" alt="" srcset=""></div>
+				<div class="item"><img class="box-filme" src="img/em-alta/min6.jpg" alt="" srcset=""></div>
+				<div class="item"><img class="box-filme" src="img/em-alta/min7.jpg" alt="" srcset=""></div>
+				<div class="item"><img class="box-filme" src="img/em-alta/min8.jpg" alt="" srcset=""></div>
+				<div class="item"><img class="box-filme" src="img/em-alta/min9.jpg" alt="" srcset=""></div>
+				<div class="item"><img class="box-filme" src="img/em-alta/min10.jpg" alt="" srcset=""></div>
+			</div>
+		</div>
+		
+		<!--script principal-->
+		<script src="js/main.js"></script>
+		<!--font awesome scripts-->
+		<script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+		
+		<!--owl scripts-->
+		<script src="js/owl/jquery.min.js"></script>
+		<script src="js/owl/owl.carousel.min.js"></script>
+		<script src="js/owl/setup.js"></script>
+	</body>
+</html>
